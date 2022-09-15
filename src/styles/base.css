@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #ebf0f7;
+    color: #556276;
+    margin: 0;
+}
+h2 {
+    font-size: 18px;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.container {
+    width: 650px;
+    margin: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+@media (max-width:680px) {
+    .flex-sm-col {
+        flex-direction: column;
+    }
+}
+.flex-auto {
+    flex: auto;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.text-xs {
+    font-size: 10px;
+}
